@@ -48,5 +48,6 @@ if __name__=="__main__":
     if not check_directories(args.source_directory, args.destination_directory):
         exit(1)
     
-    sync_dir(args.source_directory, args.destination_directory)
+    sync_dir
+    (args.source_directory, args.destination_directory)
     print(f"\nSynchronization complete.")
